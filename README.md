@@ -8,7 +8,7 @@ A simple command-line interface (CLI) trading bot built with Python for placing 
 - **Real-time Logging**: Saves all operations and error reports into `logs/bot.log` and displays them in the terminal.
 
 ## Project Structure
-- `client.py`: Initializes the connection to the Binance API using environment configurations[cite: 1].
+- `client.py`: Initializes the connection to the Binance API using environment configurations.
 - `logging_config.py`: Standardizes terminal and file logging configurations.
 - `validators.py`: Handles validation rules for symbols, trade sides, and leverage ranges.
 - `orders.py`: Executes leverage change requests and market orders.
